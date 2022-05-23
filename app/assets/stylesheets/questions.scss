@@ -1,0 +1,19 @@
+$gray: #F4F4F4;
+
+body {
+  background: gray; // Using this variable
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: rgb(7, 44, 209);
+  &:hover {
+    color: rgb(124, 7, 7);
+  }
+}
